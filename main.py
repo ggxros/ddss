@@ -32,7 +32,7 @@ def main():
 if __name__ == '__main__':
   # Run the Flask app
   app.run(
-  host='0.0.0.0',
+  host='https://asdasdasdasdasd222-1.ggxros.repl.co',
   debug=True,
   port=8080
   )
